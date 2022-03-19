@@ -1,0 +1,19 @@
+{
+  "name": "refrigerator-observer",
+  "version": "1.0.0",
+  "description": "冷蔵庫の中身の消費期限などを管理するためのWebアプリケーション。   自炊をすることが増えて自分で管理したくなったので作った。",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git subtree push --prefix backend/ heroku master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-tachikawa/refrigerator-observer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-tachikawa/refrigerator-observer/issues"
+  },
+  "homepage": "https://github.com/h-tachikawa/refrigerator-observer#readme"
+}
