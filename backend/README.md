@@ -1,24 +1,16 @@
-# README
+# Refrigerator Observer
+## Overview
+冷蔵庫の中身の消費期限などを管理するためのWebアプリケーション。  
+自炊をすることが増えて自分で管理したくなったので作った。  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Feature
+- 冷蔵庫内の食品の管理
+  - 商品名
+  - 消費期限
+  - 特記事項
+- 消費期限が近づいた場合に通知する
+  - 通知先は以下から複数選択できる
+    - メール
+    - LINE
+    - Slack
+  - 何日前の何時に通知するかを設定できる
